@@ -1,28 +1,34 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
+import About from './components/About';
+import Gallery from './components/Gallery';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 import './App.css';
-// Future components can be imported here
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <nav className="navbar">
-          <h2>Kyle and Mal Dog Grooming</h2>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-          </ul>
-        </nav>
+        {/* Navbar Component */}
+        <Navbar />
 
+        {/* Page Routes */}
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Future routes can be added here */}
+          <Route path="/about" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+
+        {/* Footer Component */}
+          <Footer /> 
       </div>
     </Router>
   );

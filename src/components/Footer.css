@@ -1,0 +1,106 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: var(--color-brown);
+    color: #ffffff;
+    padding: 60px 40px; /* Increased padding for more space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    /* Removed max-width to allow full-width on larger screens */
+    /* Alternatively, you can set a higher max-width if needed */
+    /* max-width: 1600px; */
+    margin-bottom: 20px;
+    /* Added padding to prevent content from touching the edges on very large screens */
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 200px; /* Reduced flex-basis to allow more sections per row if screen permits */
+    margin: 20px; /* Increased margin for better spacing */
+    min-width: 200px; /* Ensures sections don't shrink too much */
+  }
+  
+  /* Enhancing Heading Styles */
+  .footer-section h3,
+  .footer-section h4 {
+    margin-bottom: 15px;
+    color: var(--color-beige);
+    font-size: 1.5em; /* Increased font size for better visibility */
+  }
+  
+  /* Styling Links */
+  .footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.1em;
+  }
+  
+  .footer-section ul li a:hover {
+    color: var(--color-medium-green);
+  }
+  
+  /* Social Icons Styling */
+  .social-icons {
+    display: flex;
+    gap: 20px; /* Increased gap for better spacing */
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 1.8em; /* Increased icon size for better visibility */
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: var(--color-medium-green);
+  }
+  
+  /* Footer Bottom Styling */
+  .footer-bottom {
+    border-top: 1px solid #ffffff;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1em; /* Slightly increased font size */
+  }
+  
+  /* Responsive Design Enhancements */
+  @media (min-width: 1200px) {
+    .footer-content {
+      /* Add horizontal padding to utilize more space */
+      padding: 0 50px;
+    }
+  
+    .footer-section {
+      /* Optional: Assign specific flex-grow values if certain sections need more space */
+      /* For example, the about section can have flex-grow: 2; */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
+    }
+  
+    .footer-section {
+      flex: 1 1 100%;
+      text-align: center;
+      margin: 15px 0;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  
