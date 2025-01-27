@@ -1,0 +1,26 @@
+/* src/index.css */
+
+:root {
+  --color-dark-green: #36563e;
+  --color-medium-green: #5f8971;
+  --color-light-green: #5a8b5d;
+  --color-beige: #bec991;
+  --color-brown: #907350;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--color-light-green);
+  font-family: Arial, sans-serif;
+  color: var(--color-dark-green);
+}
+
+a {
+  color: var(--color-beige);
+}
+
+a:hover {
+  color: var(--color-dark-green);
+}

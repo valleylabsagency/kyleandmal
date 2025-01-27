@@ -1,0 +1,38 @@
+/* src/App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-light-green);
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--color-brown);
+}
+
+.navbar h2 {
+  color: var(--color-beige);
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  color: var(--color-beige);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: var(--color-dark-green);
+}

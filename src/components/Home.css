@@ -1,0 +1,39 @@
+/* src/components/Home.css */
+
+.home-container {
+    padding: 20px;
+    text-align: left;
+    background-color: var(--color-beige);
+    min-height: 80vh;
+    border-radius: 8px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-container h1 {
+    color: var(--color-dark-green);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-container h2 {
+    color: var(--color-brown);
+    margin-top: 20px;
+  }
+  
+  .home-container p {
+    color: var(--color-medium-green);
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .home-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: var(--color-medium-green);
+  }
+  
+  .home-container ul li {
+    margin-bottom: 10px;
+  }
+  
