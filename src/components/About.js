@@ -1,6 +1,7 @@
 // src/components/About.js
 import React from 'react';
 import './About.css';
+import kyleandmal from '../assets/images/kyleandmal.jpg'
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
         {/* Image Placeholder */}
         <div className="about-image">
           {/* Replace this div with an <img> tag when you have an image */}
-          <div className="image-placeholder">Image Placeholder</div>
+          <div className="image-placeholder"> <img style={{width: "100%", height: 300, borderRadius: 12}} src={kyleandmal} alt="Kyle and Mal" /></div>
         </div>
         
         {/* Text Content */}

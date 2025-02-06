@@ -2,7 +2,7 @@
 
 .services-container {
     padding: 60px 20px;
-    background-color: var(--color-light-green);
+    background-color: var(--primary-color);
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
   }
   
   .services-container h1 {
-    color: var(--color-dark-green);
+    color: var(--secondary-color);
     margin-bottom: 40px;
     text-align: center;
   }
@@ -24,7 +24,7 @@
   }
   
   .service-card {
-    background-color: #ffffff;
+    background-color: var(--secondary-color);
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
     padding: 20px;
