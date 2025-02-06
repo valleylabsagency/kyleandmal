@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/valleylabsagency.github.io/kyleandmal/static/css/main.d7f03c92.css",
-    "main.js": "/valleylabsagency.github.io/kyleandmal/static/js/main.35314a20.js",
+    "main.js": "/valleylabsagency.github.io/kyleandmal/static/js/main.6a97228d.js",
     "static/media/bathing.jpg": "/valleylabsagency.github.io/kyleandmal/static/media/bathing.19eda8a729ba084e1ebb.jpg",
     "static/media/ear.jpg": "/valleylabsagency.github.io/kyleandmal/static/media/ear.df809fe9145e72c14ba3.jpg",
     "static/media/teeth.jpg": "/valleylabsagency.github.io/kyleandmal/static/media/teeth.6337c36ba37a0f1cf55a.jpg",
@@ -12,10 +12,10 @@
     "static/media/kyleandmal.jpg": "/valleylabsagency.github.io/kyleandmal/static/media/kyleandmal.33441a81b29ba925651a.jpg",
     "index.html": "/valleylabsagency.github.io/kyleandmal/index.html",
     "main.d7f03c92.css.map": "/valleylabsagency.github.io/kyleandmal/static/css/main.d7f03c92.css.map",
-    "main.35314a20.js.map": "/valleylabsagency.github.io/kyleandmal/static/js/main.35314a20.js.map"
+    "main.6a97228d.js.map": "/valleylabsagency.github.io/kyleandmal/static/js/main.6a97228d.js.map"
   },
   "entrypoints": [
     "static/css/main.d7f03c92.css",
-    "static/js/main.35314a20.js"
+    "static/js/main.6a97228d.js"
   ]
 }
