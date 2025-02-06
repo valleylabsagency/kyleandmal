@@ -1,39 +1,108 @@
-/* src/components/Home.css */
+@import url("../assets/css/colors.css");
 
 .home-container {
-    padding: 20px;
-    text-align: left;
-    background-color: var(--color-beige);
-    min-height: 80vh;
-    border-radius: 8px;
-    margin: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .home-container h1 {
-    color: var(--color-dark-green);
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .home-container h2 {
-    color: var(--color-brown);
-    margin-top: 20px;
-  }
-  
-  .home-container p {
-    color: var(--color-medium-green);
-    font-size: 1em;
-    line-height: 1.6;
-  }
-  
-  .home-container ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    color: var(--color-medium-green);
-  }
-  
-  .home-container ul li {
-    margin-bottom: 10px;
-  }
-  
+  text-align: center;
+}
+
+/* Jumbotron */
+.jumbotron {
+  width: 100%;
+  height: 500px;
+  background-image: url("../assets/images/dog.jpg");
+  background-size: cover;
+  background-position: 90% 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.jumbotron h1 {
+  color: var(--secondary-color);
+  font-size: 2.5em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2; /* Ensures the text remains above other elements */
+}
+
+/* Creating the more pronounced half-circle effect at the bottom */
+.jumbotron::after {
+  content: "";
+  width: 100%;
+  height: 120px; /* Increased height for a more pronounced effect */
+  background: var(--primary-color);
+  position: absolute;
+  bottom: -75px; /* Adjusted to ensure it extends outward */
+  left: -15px;
+  border-radius: 50% / 150px;
+  z-index: 1; /* Ensures it stays behind the text */
+}
+
+/* Info Section */
+.info-section {
+  background-color: var(--primary-color);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.info-section h2 {
+  color: var(--secondary-color);
+  font-size: 1.5em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Services Section */
+.services-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+  background-color: var(--primary-color);
+}
+
+/* Service Box */
+.service-box {
+  background: var(--primary-color);
+  padding: 30px;
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 3px solid var(--accent-color); /* Added a solid border */
+}
+
+.service-icon {
+  font-size: 100px;
+  color: var(--secondary-color);
+}
+
+.service-box h3 {
+  color: var(--secondary-color);
+  font-size: 1.8em;
+}
+
+/* Book Now Button */
+.book-now {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.book-now:hover {
+  background-color: var(--accent-color);
+}

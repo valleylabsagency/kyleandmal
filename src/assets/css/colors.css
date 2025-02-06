@@ -1,0 +1,24 @@
+/* colors.css */
+:root {
+    --primary-color: #224C3C;
+    --secondary-color: #E5E4E3;
+    --accent-color: #E4C7A6;
+    --neutral-color: #97A396;
+    --dark-accent: #927B52;
+  }
+  
+  /* Example usage */
+  body {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
+  .button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  
+  .button:hover {
+    background-color: var(--dark-accent);
+  }
+  

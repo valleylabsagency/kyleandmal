@@ -11,9 +11,7 @@ const Footer = () => {
         {/* About Section */}
         <div className="footer-section about">
           <h3>KyleandMal Dog Grooming</h3>
-          <p>
-            Providing top-notch grooming services in Tallahassee, Florida. Your pet's comfort and well-being are our top priorities.
-          </p>
+          
         </div>
 
         {/* Quick Links Section */}

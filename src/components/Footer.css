@@ -1,7 +1,7 @@
 /* src/components/Footer.css */
 
 .footer {
-    background-color: var(--color-brown);
+    background-color: var(--neutral-color);
     color: #ffffff;
     padding: 60px 40px; /* Increased padding for more space */
     display: flex;
@@ -32,20 +32,20 @@
   .footer-section h3,
   .footer-section h4 {
     margin-bottom: 15px;
-    color: var(--color-beige);
+    color: var(--primary-color);
     font-size: 1.5em; /* Increased font size for better visibility */
   }
   
   /* Styling Links */
   .footer-section ul li a {
-    color: #ffffff;
+    color: var(--primary-color);
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 1.1em;
   }
   
   .footer-section ul li a:hover {
-    color: var(--color-medium-green);
+    color: var(--primary-color);
   }
   
   /* Social Icons Styling */
@@ -62,7 +62,7 @@
   }
   
   .social-icons a:hover {
-    color: var(--color-medium-green);
+    color: var(--primary-color);
   }
   
   /* Footer Bottom Styling */
