@@ -11,7 +11,7 @@ const About = () => {
         {/* Image Placeholder */}
         <div className="about-image">
           {/* Replace this div with an <img> tag when you have an image */}
-        <img className="kylemal-img" style={{width: "100%", height: 300, borderRadius: 12}} src={kyleandmal} alt="Kyle and Mal" />
+        <img className="kylemal-img" src={kyleandmal} alt="Kyle and Mal" />
         </div>
         
         {/* Text Content */}
