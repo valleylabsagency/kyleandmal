@@ -32,9 +32,9 @@
   }
  
   .kylemal-img {
-    width: "100%";
+    width: 100%;
     height: 300; 
-    border-radius: 12;
+    border-radius: 12px;
   }
   
   .about-text {

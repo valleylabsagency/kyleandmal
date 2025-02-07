@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="home-container">
       {/* Jumbotron */}
-      <div className="jumbotron">
+      <div className="jumbotron home-jumbotron">
         <h1>Pet Grooming in Tallahassee</h1>
       </div>
 
