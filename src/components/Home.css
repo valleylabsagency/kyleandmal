@@ -123,4 +123,8 @@
   .jumbotron h1 {
     width: 80%;
   }
+
+  .jumbotron::after {
+    padding: 0 16px;
+  }
 }
