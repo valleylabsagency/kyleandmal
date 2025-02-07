@@ -54,7 +54,7 @@
 /* Responsive Navbar */
 @media (max-width: 768px) {
   .navbar-links {
-    display: none;
+    display: none !important;
   }
 
   .mobile-menu-icon {

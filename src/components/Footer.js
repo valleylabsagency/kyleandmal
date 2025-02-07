@@ -14,15 +14,17 @@ const Footer = () => {
           
         </div>
 
-        {/* Quick Links Section */}
+        {/* Hours */}
         <div className="footer-section links">
-          <h4>Quick Links</h4>
+          <h4>Hours</h4>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/gallery">Gallery</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
+            <li>Monday: 9am - 6pm</li>
+            <li>Tuesday: 9am - 6pm</li>
+            <li>Wednesday: 9am - 6pm</li>
+            <li>Thursday: 9am - 6pm</li>
+            <li>Friday: 9am - 6pm</li>
+            <li>Saturday: 9am - 12pm</li>
+            <li>Sunday: Closed</li>
           </ul>
         </div>
 

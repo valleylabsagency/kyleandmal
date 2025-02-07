@@ -4,6 +4,7 @@
   font-family: Arial, sans-serif;
   background-color: var(--color-light-green);
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .navbar {

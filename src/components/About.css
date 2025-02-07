@@ -30,17 +30,11 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .image-placeholder {
-    width: 300px;
-    height: 300px;
-    background-color: #dcdcdc; /* Light gray color */
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #888888;
-    font-size: 1.2em;
+ 
+  .kylemal-img {
+    width: "100%";
+    height: 300; 
+    border-radius: 12;
   }
   
   .about-text {
@@ -58,6 +52,12 @@
   .about-text p {
     margin-bottom: 20px;
   }
+
+  @media (max-width: 879px) {
+    .kylemal-img {
+      width: 450px !important;
+    }
+  }
   
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -70,11 +70,11 @@
       flex: 1 1 100%;
     }
     
-    .image-placeholder {
-      width: 80%;
-      height: auto;
-      padding-top: 80%; /* Maintain aspect ratio */
-      position: relative;
+  }
+
+  @media (max-width: 487px) {
+    .kylemal-img {
+      width: 100% !important;
     }
   }
   
