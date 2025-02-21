@@ -1,4 +1,8 @@
 /* src/components/Navbar.css */
+@font-face {
+  font-family: 'Hughislife';
+  src: url('../assets/fonts/hugh-is-life.ttf') format('truetype');
+}
 
 .navbar {
   display: flex;
@@ -17,7 +21,7 @@
 }
 
 .brand-name {
-  font-family: 'Lobster', cursive;
+  font-family: 'Hughislife', sans-serif;
   font-size: 2em;
   color: var(--primary-color); /* Changed from var(--color-beige) */
 }

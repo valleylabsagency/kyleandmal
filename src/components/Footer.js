@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-content">
         {/* About Section */}
         <div className="footer-section about">
-          <h3>KyleandMal Dog Grooming</h3>
+          <h3>Dog Days Pet Spa</h3>
           
         </div>
 
@@ -33,7 +33,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <p>1234 Grooming Lane, Tallahassee, FL 32301</p>
           <p>Phone: (850) 123-4567</p>
-          <p>Email: contact@kyleandmalgrooming.com</p>
+          <p>Email: contact@dogdayspetspa.com</p>
         </div>
 
         {/* Social Media Section */}
@@ -56,7 +56,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} KyleandMal Dog Grooming. All rights reserved.
+        &copy; {new Date().getFullYear()} Dog Days Pet Spa. All rights reserved.
       </div>
     </footer>
   );

@@ -14,7 +14,7 @@ const Home = () => {
       {/* Informational Section */}
       <div className="info-section">
         <h2>
-          At Kyle and Mal Dog Grooming, we understand that your furry friend is
+          At Dog Days Pet Spa, we understand that your furry friend is
           a cherished member of your family. Located in the heart of
           Tallahassee, Florida, we offer a range of grooming services tailored
           to meet the unique needs of each dog.

@@ -15,7 +15,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-brand">
         <Link to="/" className="brand-link">
-          <span className="brand-name">KyleandMal</span>
+          <span className="brand-name">Dog Days Pet Spa</span>
         </Link>
       </div>
       <ul className={isMobile ? "navbar-links-mobile" : "navbar-links"} onClick={() => setIsMobile(false)}>
